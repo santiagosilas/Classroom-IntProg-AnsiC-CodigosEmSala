@@ -1,4 +1,3 @@
-// gcc Lista-Q22.c -o Questao22
 #include<stdio.h>
 int main(){
     double n;
