@@ -6,7 +6,18 @@
 #define linhas 1000
 #define maxvalue 100
 
-//void calcDist(int p)
+float calcDist(int p[], int q[] ){
+        return sqrt(
+                 pow(p[0]-q[0],2)+
+                 pow(p[1]-q[1],2));
+}
+
+///float calcDistAny(int p[], int q[], int dim){
+///        //+= pow(p[i]-q[i],2)
+///        //return sqrt(
+///        //         +
+///        //         );
+///}
 
 int main(){
     float d, dmin = maxvalue;
