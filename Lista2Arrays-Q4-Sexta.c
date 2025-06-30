@@ -10,8 +10,10 @@ inteiros aleatórios. */
 #include<stdio.h>
 #include<stdlib.h>
 void jogar(int v[], int n){
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++){
         v[i] = 1 + rand()%6;
+        printf("%d, ", v[i]);
+    }
 }
 void imprimir(int v[], int n){
     for(int i=0;i<n;i++)
